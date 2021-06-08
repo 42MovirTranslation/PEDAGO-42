@@ -1,6 +1,7 @@
 1
 00:00:05,580 --> 00:00:12,529
-이번 영상에서는 “삼항 연산자”라는 새로운 개념을 알려드릴게요. 이전에 "if", "else" "else if", "switch", "break" 등등
+이번 영상에서는 “삼항 연산자”라는 새로운 개념을 알려드릴게요.
+이전에 "if", "else" "else if", "switch", "break" 등등
 
 2
 00:00:12,600 --> 00:00:18,409
@@ -265,6 +266,4 @@ a가 41이어서 조건이 거짓이므로, 13이 출력되네요.
 68
 00:05:24,260 --> 00:05:26,900
 이게 바로 삼항 연산자에 대한 모든 것입니다.
-
-
-translated by inyang, chelee, mki, yeslee, mseo and ji-kim :)
+<< translated by inyang, chelee, mki, yeslee, mseo and ji-kim :) >>

@@ -314,5 +314,4 @@ a가 0의 값으로 출력되었습니다. 지금은 0이지만 어느 값이든
 87
 00:06:23,000 --> 00:59:59,000
 이제 여러분은 범위에 대한 모든 것을 알게 되었습니다.
-
-translated by inyang, chelee, mki, yeslee, mseo and ji-kim :)
+<< translated by inyang, chelee, mki, yeslee, mseo and ji-kim :) >>

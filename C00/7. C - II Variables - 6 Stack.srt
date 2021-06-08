@@ -241,5 +241,4 @@ main 위에 함수가 있고, 우리는 그 함수를 덮어씌웠습니다
 64
 00:04:35,000 --> 00:59:59,000
 여러분이 변수에 접근해서 무언가를 하려고 한다면, 주의깊게 생각하세요 !
-
-translated by inyang, chelee, mki, yeslee, mseo and ji-kim :)
+<< translated by inyang, chelee, mki, yeslee, mseo and ji-kim :) >>

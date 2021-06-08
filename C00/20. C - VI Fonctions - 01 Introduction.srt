@@ -405,5 +405,4 @@ fct 출력 함수를 만드는 방법을
 102
 00:03:35,150 --> 00:03:39,069
 이 경우는 간단한 출력입니다.
-
-translated by ji-kim, inyang, chelee, mki, yeslee and mseo :)
+<< ranslated by ji-kim, inyang, chelee, mki, yeslee and mseo :) >>

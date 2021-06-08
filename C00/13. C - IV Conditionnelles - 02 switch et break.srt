@@ -353,5 +353,4 @@ default만큼은 아무 데나 있어도 됩니다, 상관없어요.
 89
 00:06:51,360 --> 00:06:58,249
 그리고 “if”, “else if”와는 조건들이 약간 다르다는 걸 깨닫게 해주겠죠. 즐기세용~!~!~!
-
-translated by inyang, chelee, mki, yeslee, mseo and ji-kim :)
+<< translated by inyang, chelee, mki, yeslee, mseo and ji-kim :) >>

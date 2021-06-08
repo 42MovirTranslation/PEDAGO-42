@@ -625,5 +625,4 @@ float 등은 구글링 하시길 바랍니다.
 161
 00:12:40,000 --> 00:59:59,000
 간단하죠 :)
-
-translated by inyang, chelee, mki, yeslee and mseo :)
+<< translated by inyang, chelee, mki, yeslee and mseo :) >>

@@ -303,8 +303,8 @@ i 곱하기 i. 안에 제곱값을 넣을 겁니다.
 
 76
 00:05:06,168 --> 00:05:13,568
-예를 들자면, 이용자에게서 키보드 입력 값을 받는다던가 하는 것들이죠. 결론적으로 매우 유용합니다. 이게 끝입니다. 이제 while문을 쓸 줄 알게 됐군요!
-
-translated by inyang, chelee, mki, yeslee, mseo, and ji-kim :)
+예를 들자면, 이용자에게서 키보드 입력 값을 받는다던가 하는 것들이죠. 결론적으로 매우 유용합니다.
+이게 끝입니다. 이제 while문을 쓸 줄 알게 됐군요!
+<< translated by inyang, chelee, mki, yeslee, mseo, and ji-kim :) >>
 
 

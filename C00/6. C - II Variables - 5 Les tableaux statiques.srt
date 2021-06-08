@@ -431,5 +431,4 @@ a[0] 줄에서 a[0][3]에 할당하기를 원한다면,
 117
 00:08:22,479 --> 00:08:24,958
 이제 정적 배열을 어떻게 쓰는지 알게 되셨군요~
-
-translated by inyang, chelee, mki, yeslee, mseo and ji-kim :)
+<< translated by inyang, chelee, mki, yeslee, mseo and ji-kim :) >>

@@ -89,5 +89,4 @@ while문을 건너뛰고 다음 줄로 넘어갑니다.
 23
 00:01:48,490 --> 00:01:53,850
 그 이후 "while"을 이용해 처음부터 동작합니다. 범위에 들어가기 전, 조건을 다시 한번 확인한 뒤에 실행시킬 거예요.
-
-translated by ji-kim, inyang, chelee, mki, yeslee and mseo :)
+<< translated by ji-kim, inyang, chelee, mki, yeslee and mseo :) >>

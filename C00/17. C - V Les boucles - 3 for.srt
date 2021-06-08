@@ -140,7 +140,5 @@ int "i"가 있습니다. 만약 "i"가 10보다 작으면 i++를 실행할 것�
 
 36
 00:02:26,329 --> 00:02:28,329
-이제 우리는 “for”문을 적는 법을 알게 되었습니다! 
-
-
-translated by ji-kim, inyang, chelee, mki, yeslee and mseo :)
+이제 우리는 “for”문을 적는 법을 알게 되었습니다!
+<< translated by ji-kim, inyang, chelee, mki, yeslee and mseo :) >>

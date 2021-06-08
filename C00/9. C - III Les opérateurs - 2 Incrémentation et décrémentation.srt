@@ -208,7 +208,5 @@ i 값이 출력된 후에 감소합니다
 53
 00:03:34,040 --> 00:03:40,249
 또는 -- 이것이 가장 일반적인 사용입니다. 이것은 프로그래밍에 매우 많이 사용되는 연산자입니다.
-
-
-translated by inyang, chelee, mki, yeslee, mseo and ji-kim :)
+<< translated by inyang, chelee, mki, yeslee, mseo and ji-kim :) >>
 

@@ -367,6 +367,4 @@ goto 레이블 이름.
 93
 00:04:41,020 --> 00:04:46,020
 드디어! ‘goto’와 레이블들의 사용법을 알게 되었군요!
- 
- 
-translated by inyang, chelee, mki, yeslee, mseo and ji-kim:)
+<< translated by inyang, chelee, mki, yeslee, mseo and ji-kim:) >>

@@ -375,5 +375,4 @@ hello pouet도 출력하라고 명령합니다.
 96
 00:06:28,000 --> 00:59:59,000
 몇 개의 비디오를 본다면, 당신은 C 전문가가 될 거라고 저는 장담합니다.
-
-translated by inyang, chelee, mki, yeslee and mseo :)
+<< translated by inyang, chelee, mki, yeslee and mseo :) >>
