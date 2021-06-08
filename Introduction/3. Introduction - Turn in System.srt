@@ -1,270 +1,181 @@
 1
 00:00:00,460 --> 00:00:04,580
-Hello in this video we will see the procedure of rendering projects
-Bonjour dans cette vidéo nous allons voir la procédure de rendu des projets
 안녕하세요. 이 비디오에서는 프로젝트 제출 절차를 살펴보겠습니다.
  
 2
 00:00:04,580 --> 00:00:07,080
-so I'm going to go on my projects
-alors justement je vais me rendre sur mes projets
 그래서 저는 제 프로젝트에 대해 이야기하려고 합니다.
  
 3
 00:00:08,020 --> 00:00:11,780
-I click on project C-09 I had already registered
-je clique sur le projet C-09 auquel je m'étais déjà inscrit
 제가 이미 등록했던 C-09 프로젝트를 클릭해서
  
 4
 00:00:11,780 --> 00:00:15,640
-and then I'll click on the "see my project page" button
-et puis ensuite je vais cliquer sur le bouton "see my project page"
 "see my project page" 버튼을 클릭하겠습니다.
  
 5
 00:00:15,940 --> 00:00:21,280
-you see here your git repository, on which you will have to make your project
-vous voyez ici apparaître votre repos git, sur lequel vous allez devoir rendre votre projet
-여기서 각자의 프로젝트 제출용 git 주소를 볼 수 있습니다. 이곳에 여러분의 프로젝트를 제출해야 합니다.
+여기서 각자의 프로젝트 제출용 git 주소를 볼 수 있습니다.
+이곳에 여러분의 프로젝트를 제출해야 합니다.
  
 6
 00:00:21,280 --> 00:00:24,300
-you will see in another video how git works
-vous verrez dans une autre vidéo comment fonctionne git
 Git이 어떻게 동작하는지는 다른 비디오에서 보실 수 있습니다.
  
 7
 00:00:24,520 --> 00:00:27,860
-when you return the project and want to be evaluated
-lorsque vous aurez rendu le projet et que vous souhaitez vous faire évaluer
 여러분이 프로젝트를 제출하고, 평가를 받고 싶다면
  
 8
 00:00:27,860 --> 00:00:31,340
-you can click on "set the project has finished"
-alors à ce moment là vous pourrez cliquer sur "set the project has finished"
 그때부터 "Set the project has finished"를 클릭할 수 있습니다.
  
 9
 00:00:32,320 --> 00:00:36,880
-I'm valid because I'm sure i'm done and correctly
-je valide, car je suis bien certaine de l'avoir fini et de l'avoir rendu correctement
 나는 완벽하게 끝낸 프로젝트를 제출했으며, 이를 증명한다는 뜻입니다.
  
 10
 00:00:37,120 --> 00:00:42,300
-now is finish, you will be able to register for an evaluation
-maintenant que vous l'avez bien indiqué comme terminé, vous allez pouvoir vous inscrire pour une évaluation
 프로젝트를 제출했다면, 평가에 등록할 수 있습니다.
  
 11
 00:00:42,660 --> 00:00:45,740
-So now you can click on "subscribe to defense"
-donc ici vous pouvez cliquer sur "subscribe to defense"
 이제 여기서 "subscribe to defense"를 클릭할 수 있습니다.
  
 12
 00:00:46,180 --> 00:00:50,600
-If you ever want to give up, you can click on the "give up" button
-Si jamais, vous souhaitez finalement abandonner vous pouvez aussi cliquer sur "give up"
 만약 당신이 결국 포기하기를 원한다면, "Give up"을 클릭할 수도 있죠.
  
 13
 00:00:50,780 --> 00:00:54,760
-but be careful, when you do that, you have to wait for a moment
-mais attention, lorsque vous faites ça, il va falloir attendre un moment
 하지만 주의하세요, “Give up” 후에 새롭게 평가를 받기 위해서는, 
  
 14
 00:00:54,940 --> 00:00:57,780
-before retry the project
-avant de pouvoir à nouveau être évalué
 잠시 기다려야 합니다.
  
 15
 00:00:57,780 --> 00:01:00,960
-and the more you'll do it, the longer you'll have to wait
-et plus vous allez le faire, plus vous allez devoir attendre de temps
 포기를 반복한다면, 기다려야할 시간은 더 늘어납니다.
  
 16
 00:01:01,480 --> 00:01:04,120
-if I am ready to be evaluated
-donc si je suis prête à être évaluée
 그러니 만약 평가받을 준비가 되어있다면,
  
 17
 00:01:04,120 --> 00:01:06,120
-I click on "subscribe to defense"
-je clique sur "sur subscribe to defense"
 “subscribe to defense”를 클릭해봅시다.
  
 18
 00:01:06,120 --> 00:01:08,800
-And I have access to a schedule
-et la j'accède à un planning où vous voyez des créneaux
 여기 빈 일정을 확인할 수 있는 일정표에 들어왔습니다.
  
 19
 00:01:08,920 --> 00:01:11,760
-and you can register one of these slots to be evaluated
-et vous pouvez vous inscrire un de ces créneaux pour vous faire évaluer
 이 슬롯들 중 하나를 클릭해서 여러분의 평가를 등록할 수 있습니다.
  
 20
 00:01:12,160 --> 00:01:16,360
-simply by clicking on
-tout simplement en cliquant dessus et ensuite en cliquant sur ok
 그냥 평가받을 시간의 슬롯을 클릭하고 OK를 클릭하면 됩니다.
  
 21
 00:01:16,360 --> 00:01:20,360
-in the same way to evaluate other projects
-de la même manière vous allez évaluer d'autres projets
 같은 방식으로 여러분은 다른 프로젝트들을 평가하게 될 것입니다.
  
 22
 00:01:20,540 --> 00:01:22,260
-you have evaluation points
-alors vous savez que vous avez des points d'évaluation.
 이제 여러분은 평가 포인트가 있음을 알았을 겁니다.
  
 23
 00:01:22,260 --> 00:01:23,740
-you have 5 points
-vous avez cinq points
 기본적으로는 5점이 주어집니다.
  
 24
 00:01:23,740 --> 00:01:27,180
-when you evaluate a project you earn a point
-lorsque vous allez évaluer un projet vous gagnez un point
 여러분이 프로젝트를 평가한다면, 포인트를 얻을 수 있습니다.
  
 25
 00:01:27,340 --> 00:01:30,920
-and when you go to ask for an assessment, you spend a point
-et lorsque vous allez demander une évaluation, vous dépensez un point
 여러분이 평가를 요청하면, 1점씩 지출합니다.
  
 26
 00:01:31,000 --> 00:01:35,260
-to be able to evaluate projects you go to your home page
-alors pour pouvoir évaluer des projets vous allez sur votre page d'accueil
 프로젝트를 평가하려면 홈페이지의
  
 27
 00:01:35,260 --> 00:01:39,100
-click on "evaluation" -> "manage slots"
-et vous avez évaluation ->  "manage slots"
 “evaluation”에서 “manage slot”을 클릭하세요.
  
 28
 00:01:39,100 --> 00:01:46,340
-you click on it and you will be able to indicate here on which slots you will be available
-vous cliquez dessus et vous allez pouvoir indiquer ici sur quels créneaux vous pouvez vous rendre disponible pour évaluer d'autres projets
 여기를 클릭하면 당신이 언제 다른 프로젝트들을 평가할 수 있는지 알려줄 수 있는 슬롯을 만들 수 있습니다. 
 
 29
 00:01:46,580 --> 00:01:48,020
-Is very simple       	
-c'est très simple vous cliquez
 아주 간단하죠.
  
 30
 00:01:48,180 --> 00:01:55,140
-For exemple you can click this friday at 9am, has automatically created a quarter-hour slot but you can also enlarge it
-par exemple vendredi à 9 heures. ça crée automatiquement un slot d'un quart d'heure mais vous pouvez aussi l'agrandir
 예를 들어 금요일 오전 9시를 클릭하면 자동으로 25분짜리 슬롯이 만들어집니다. 하지만 슬롯을 더 늘릴 수도 있습니다.
  
 31
 00:01:55,600 --> 00:01:58,169
-if you are available over a biggest period
-si vous êtes disponible sur une plus longue durée
 당신이 더 오래 평가할 수 있다면요.
  
 32
 00:02:00,130 --> 00:02:03,479
-When you go to an evaluation
-Lorsque vous allez à une évaluation, lorsque vous êtes inscrit à une évaluation
 평가를 받거나 평가자로 등록할 때,
  
 33
 00:02:04,000 --> 00:02:09,180
-your evaluators will be randomly selected
-votre évaluateurs va être choisi au hasard sur les personnes qui se sont rendues disponibles à ce moment là
 여러분의 평가자는 그 시간에 평가가 가능하다고 슬롯을 열어두었던 사람들 중에서 무작위로 선정될 것입니다.
  
 34
 00:02:09,180 --> 00:02:15,160
-you will only know your evaluator's login fifteen minutes before
-vous ne connaîtrez le login de votre évaluateur que quinze minutes avant
 여러분은 평가 15분 전부터 여러분의 평가자를 알 수 있습니다.
  
 35
 00:02:15,160 --> 00:02:20,240
-same thing for him
-et de la même manière l'évaluateur ne connaîtra le login de la personne a évalué que quinze minutes avant l'évaluation
 같은 방식으로 평가자는 평가 15분 전에 피평가자를 알 수 있습니다.
  
 36
 00:02:21,120 --> 00:02:28,720
-Evaluations are only in the presence of both people
-bien sûr, rendez vous ensemble, car les évaluations qui ne se font qu'en présence de l'évaluateur et de celui qui évalue
 평가는 평가자와 피평가자가 함께 있을 때 이루어져야만 합니다.
  
 37
 00:02:29,100 --> 00:02:32,980
-If ever one of them is missing after five minutes
-si jamais l'un des deux est absent bout de cinq minutes
 만약 둘 중 하나가 5분 이상 결석한다면
  
 38
 00:02:33,580 --> 00:02:41,070
-You can report it "as abscent".
-alors à ce moment là vous pouvez le report comme absent mais attention ça doit être utilisé en effet que pour le cas d'une absence
 그때부터 (피)평가자의 부재를 선언할 수 있지만, 명심하세요. 정말 상대의 부재 시에만 선언해야 합니다.
  
 39
 00:02:41,280 --> 00:02:47,840
-attention this should be used only if is not here
-et tout abus sera sévèrement sanctionné si vous vous amusez à déclarer quelqu'un d'absence alors qu'il ne l'était pas
 만약 재미로 누군가가 평가에 불참했다고 선언한다면, 강력한 처벌이 이루어질 것입니다. 
  
 40
 00:02:47,840 --> 00:02:52,820
-last precision, you will have a "rushs" suring the week-end's
-dernière petite précision, vous allez avoir des rushes. les rushs c'est le week end
 마지막으로, 여러분은 “rush”를 하게 될 것입니다. rush는 주말동안 진행되며,
  
 41
 00:02:52,820 --> 00:02:56,100
-Is a group project, and you need to suscribe
-ça se passe en groupe donc lorsque vous allez vous inscrire à un rush
 그룹 프로젝트입니다. 그러므로 만약 여러분이 rush에 등록한다면,
  
 42
 00:02:56,290 --> 00:03:01,500
-you will be automatically match with several people
-vous allez être automatiquement match  avec plusieurs personnes en fonction du nombre de personnes dans le groupe
 그룹의 인원수에 따라 자동으로 매칭된 사람들과 함께 프로젝트를 진행하게 될 것입니다.
  
 43
 00:03:02,020 --> 00:03:06,320
-And the rush finish the sunday at 23h42 (11.42pm)
-et le rush se termine toujours le dimanche à 23h42
 rush는 항상 일요일 23시 42분에 종료됩니다.
  
 44
 00:03:06,320 --> 00:03:10,560
-you will be automatically registered for assessments the next day
-vous serez automatiquement inscrits pour des évaluations le lendemain, le lundi
 rush의 평가는 바로 다음날인 월요일에 자동으로 등록될 겁니다.
  
 45
 00:03:11,319 --> 00:03:13,319
-that's all
-voilà
 이상이에요.
-translated by inyang, chelee, mki , yeslee :)
+<< translated by inyang, chelee, mki , yeslee :) >>

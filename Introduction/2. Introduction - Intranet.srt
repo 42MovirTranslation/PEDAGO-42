@@ -1,436 +1,230 @@
 1
 00:00:00,120 --> 00:00:05,680
-Hello and welcome to this video where I will explain how to connect to the 42 intranet
-Bonjour et bienvenue dans cette vidéo où je vais vous expliquer comment vous connecter à l'intranet de 42
 안녕하세요. 42 인트라넷에 연결하고, 주요 기능을 사용하는 방법을
 
 2
 00:00:05,940 --> 00:00:09,060
-and how to use this intranet and its main features
-et comment utiliser cet intranet et ses principales fonctionnalités
 설명하는 비디오에 오신 것을 환영합니다.
 
 3
 00:00:09,280 --> 00:00:15,580
-so the first thing you are going to connect to the internet using your browser, here google chrome
-alors la première chose vous allez vous connecter à internet en utilisant votre navigateur, ici, google chrome
 여기에 Google Chrome을 실행해서 
 
 4
 00:00:15,720 --> 00:00:20,560
-to connect, type the address intra.42.fr
-pour vous connecter vous tapez l'adresse intra.42.fr
 intra.42.fr을 입력합니다.
 
 5
 00:00:21,880 --> 00:00:25,080
-You will reach a page on which you will be able to log in
-Vous allez parvenir à une page sur laquelle vous allez pouvoir vous loguez
 로그인 페이지가 나타납니다.
 
 6
 00:00:25,200 --> 00:00:28,440
-You have two fields, the one to put your login
-Vous avez deux champs,  celui pour mettre votre login
 두 개의 칸이 있습니다. 아이디를 입력하는 칸에
 
 7
 00:00:28,840 --> 00:00:32,700
-For me is "adent", as "arthur dent" and your password
-le mien ce sera adent, comme arthur dent et ensuite votre mot de passe
-mine will be adent, like arthur dent and then your password
 제 아이디인 “arthur dent”의 “adent”와
 (arthur dent는 은하수를 여행하는 히치하이커를 위한 안내서 주인공)
 
 8
 00:00:33,360 --> 00:00:35,860
-évidemment si vous avez oublié votre mot de passe.
-obviously if you forgot your password.
 비밀번호를 입력합니다. 만약 비밀번호를 잊어버렸다면,
 
 9
 00:00:35,860 --> 00:00:40,100
-Vous avez un lien ci dessous qui vous permet de le récupérer
-You have a link below which allows you to recover it
 아래에 복구 할 수있는 링크가 있습니다.
 
 10
-00:00:41,040 --> 00:00:43,040
-Voilà vous voici connecté à l'intranet
-Here you are connected to the intranet
-인트라넷에 연결되고,
+00:00:41,040 --> 00:00:46,120
+인트라넷에 연결되고, 대시 보드가 보입니다.
 
 11
-00:00:43,560 --> 00:00:46,120
-et vous allez arriver sur le dashboard
-and you will arrive on the dashboard
-대시 보드가 보입니다.
-
-12
 00:00:46,120 --> 00:00:48,120
-celui ci est un peu vide pour l'instant
-this one is a little empty for now
 현재 대시보드는 비어 있습니다
 
-13
+12
 00:00:48,120 --> 00:00:48,960
-c'est normal
-it's normal
 정상입니다
 
-14
+13
 00:00:48,960 --> 00:00:51,060
-vous allez d'ailleurs voir votre barre d'expérience
-you will also see your experience bar
 경험치 바도 표시됩니다.
 
-15
+14
 00:00:51,180 --> 00:00:55,420
-pour l'instant vous êtes level 0 et vous avez 0%.
-for the moment you are level 0 and you have 0%.
 여러분은 지금 level0에 0%이지만,
 
+15
+00:00:55,420 --> 00:01:02,940
+프로젝트를 해나가면서 경험치가 증가하고 레벨업 할 수 있습니다
+
 16
-00:00:55,420 --> 00:00:58,380
-au fur et à mesure, vous allez réaliser des projets
-as you go along, you will carry out projects
-프로젝트를 해나가면서
-
-17
-00:00:58,540 --> 00:01:02,940
-votre expérience va augmenter et vous permettant de passer différents niveaux
-your experience will increase and allow you to pass different levels
-경험치가 증가하고 레벨업 할 수 있습니다
-
-18
 00:01:03,900 --> 00:01:07,080
-la première chose que je vais vous montrer, qui est très importante
-the first thing I'm going to show you, which is very important
 매우 중요한 것을 먼저 보여 드리겠습니다.
 
-19
+17
 00:01:07,080 --> 00:01:10,380
-c'est d'aller lire les règles de vie, ici à 42
-is to go and read the rules of life, here at 42
 42 규칙을 읽으러 가볼까요?
 
-20
-00:01:10,540 --> 00:01:14,420
-vous allez aller dans l'avant-dernière icône, la boussole
-you will go to the penultimate icon, the compass
-밑에서 두 번째 아이콘인 나침반으로 이동하면
+18
+00:01:10,540 --> 00:01:17,380
+밑에서 두 번째 아이콘인 나침반으로 이동하면 모든 규칙 목록이 표시됩니다.
 
-21
-00:01:14,420 --> 00:01:17,380
-et vous allez voir la liste de toutes les règles
-and you will see the list of all the rules
-모든 규칙 목록이 표시됩니다.
-
-22
+19
 00:01:17,520 --> 00:01:20,220
-je vous invite à les lire minutieusement
-I invite you to read them carefully
 여러분이 이것들을 주의 깊게 읽기를 권합니다. 
 
-23
+20
 00:01:20,860 --> 00:01:25,799
-si jamais vous rencontrez des difficultés, de quelque ordre que ce soit, vous pouvez utiliser les liens
-if you ever encounter any difficulties of any kind, you can use the links
 만약, 여러분에게 기술적 또는 기타 교육적 어려움이 있는 경우, 
 
-24
+21
 00:01:26,100 --> 00:01:32,940
-qui vous permettent de contacter la personne idoine en cas d'une difficulté pédagogique technique ou autre
-which allow you to contact the appropriate person in the event of a technical or other educational difficulty
 적절한 사람에게 연락 할 수있는 링크도 있습니다.
 
-25
+22
 00:01:33,940 --> 00:01:36,180
-maintenant venons en aux projets
-now let's come to projects
 이제 프로젝트로 가서... 
 
-26
+23
 00:01:36,420 --> 00:01:41,240
-alors les projets se trouvent dans la deuxième icône. Vous allez voir l'ensemble des projets
-then the projects are in the second icon. You will see all the projects
 프로젝트가 위에서 두 번째 아이콘에 있습니다. 모든 프로젝트가 표시됩니다.
 
-27
+24
 00:01:41,300 --> 00:01:46,760
-donc un projet c'est un travail que vous  allez devoir réaliser et rendre. Ca peut aussi être un examen
-so a project is a job that you will have to carry out and return. It can also be an exam
 프로젝트는 여러분들이 해 나가야 할 것들입니다. 시험이 될 수도 있습니다.
 
-28
+25
 00:01:46,920 --> 00:01:49,500
-vous allez voir la liste de ces projets sur cette page.
-you will see the list of these projects on this page.
 이 페이지에서 프로젝트 목록을 볼 수 있습니다.
 
-29
-00:01:49,500 --> 00:01:51,200
-il ya d'autres manières de la voir
-there are other ways to see it
-홀리 그래프로도 프로젝트를
+26
+00:01:49,500 --> 00:01:53,720
+홀리 그래프로도 프로젝트를 볼 수 있습니다.
 
-30
-00:01:51,200 --> 00:01:53,720
-notamment par le holy graph
-especially by the holy graph
-볼 수 있습니다.
-
-31
+27
 00:01:55,500 --> 00:01:58,400
-Alors vous n'aurez pas accès à celui là mais plutôt celui ci.
-So you will not have access to this one but rather this one.
 여러분은 아직 이 홀리그래프에 접근 할 수 없습니다.
 
-32
+28
 00:01:58,540 --> 00:01:59,880
-je vais zoomer un petit peu
-I'm going to zoom in a little bit
 조금 확대하겠습니다.
 
-33
+29
 00:01:59,880 --> 00:02:03,560
-Chaque cercle correspond à un projet.
-Each circle corresponds to a project.
 각 원은 프로젝트에 해당합니다.
 
-34
+30
 00:02:03,560 --> 00:02:09,060
-En l'occurrence les cercles bleus clair correspondent à des projets que j'ai réalisés et finalisés
-In this case the light blue circles correspond to projects that I have carried out and finalized
 이 경우 하늘색 원은 내가 수행 한 프로젝트에 해당하고, 흰색 원이 있는
 
-35
+31
 00:02:09,180 --> 00:02:15,120
-les projets noirs avec un cercle blanc autour sont les projets auxquels je peux m'inscrire
-black projects with a white circle around are the projects I can subscribe to
 검은색 프로젝트는 내가 등록 할 수 있는 프로젝트입니다.
 
-36
+32
 00:02:15,500 --> 00:02:19,989
-il est extrêmement important que vous vous inscriviez correctement aux projets
-it is extremely important that you register correctly for projects
 특히 시험과 또! 특히 시험을 위해 
 
-37
-00:02:20,360 --> 00:02:22,360
-particulièrement pour les examens
-especially for exams
-프로젝트를 올바르게 등록하는 것은 
+33
+00:02:20,360 --> 00:02:24,880
+프로젝트를 올바르게 등록하는 것은 매우 중요합니다.
 
-38
-00:02:22,460 --> 00:02:24,880
-et en plus de ça, pour les examens.
-and on top of that, for exams.
-매우 중요합니다.
-
-39
+34
 00:02:24,880 --> 00:02:27,660
-non seulement vous devrez vous inscrire au projet
-not only will you have to register for the project
 시험 프로젝트에 등록해야 할뿐만 아니라
 
-40
-00:02:27,660 --> 00:02:29,180
-je vais vous montrer comment
-i will show you how
-
-41
+45
 00:02:29,180 --> 00:02:32,140
-mais en plus de ça vous devrez aussi vous inscrire à l'événement
-but in addition to that you will also have to register for the event
 시험 이벤트도 등록해야합니다.
 
-42
+46
 00:02:32,140 --> 00:02:34,000
-je vous montrerai ça après
-I'll show you that after
 프로젝트들을 보는 다른 방법을 보여드리겠습니다.
 
-43
+47
 00:02:34,000 --> 00:02:37,800
-une autre manière de voir les projets, vous pouvez passer par list projects
-another way to see projects, you can go through list projects
 여러분은 프로젝트들을 리스트 형식으로 볼 수 있습니다.
 
-44
-00:02:38,200 --> 00:02:41,020
-alors moi je vais en avoir un peu plus qui vont apparaître
-so I will have a few more that will appear
-
-45
+48
 00:02:41,260 --> 00:02:45,620
-voilà voilà ce que vous devriez avoir la liste des projets qui correspondent à la piscine
-this is what you should have the list of projects that correspond to the pool
 여러분은 모든 피신 프로젝트를 볼 수 있습니다.
 
-46
+49
 00:02:45,620 --> 00:02:50,160
-vous voyez en vert les projets que j'ai réalisés et terminés
-you see in green the projects that I have carried out and completed
 내가 수행하고 완료 한 프로젝트가 녹색으로 표시됩니다.
 
-47
+50
 00:02:50,340 --> 00:02:53,920
-vous voyez en bleu, celui ci, sur lequel je peux essayer de m'inscrire
-you see in blue, this one, on which I can try to register
 파란색으로 보이는 것들은, 등록 할 수 있습니다
 
-48
+51
 00:02:54,160 --> 00:02:57,600
-on voit ici, ceux qui sont recommandées et ceux qui sont interdits
-we see here, those which are recommended and those which are prohibited
 여기에서 권장되는 것과 금지 된 것들을 볼 수 있습니다.
 
-49
+52
 00:02:58,100 --> 00:03:01,280
-par exemple, pour m'inscrire au projet piscine C-09
-for example, to register for the C-09 swimming pool project
 예를 들어 C-09 라피신 프로젝트를
 
-50
+53
 00:03:01,280 --> 00:03:06,560
-je clique tout simplement dessus et vous voyez que vous avez un bouton pour pouvoir vous inscrire
-I just click on it and you see that you have a button to be able to register
 등록 할 수 있는 버튼이 있습니다.
 
-51
+54
 00:03:06,780 --> 00:03:09,140
-donc voici la manière dont on s'inscrit à un projet
-so here is how we register for a project
 방법은 register를 누르면 됩니다.
 
-52
-00:03:09,140 --> 00:03:12,120
-me voici inscrite au projet c piscines c 09
-here I am registered in the c pools c 09 project
-여러분이 register를 누른 순간부터
-
-53
-00:03:12,260 --> 00:03:14,280
-à partir du moment où, vous êtes inscrit
-from the moment you are registered
-C Piscine C 09 프로젝트에 등록됩니다.
-
-54
-00:03:14,300 --> 00:03:17,100
-vous allez avoir des vidéos que vous pouvez consulter
-you are going to have videos that you can check out
-앞으로 할 프로젝트와 관련된 비디오를 참조 할 수 있으며, 
-
 55
-00:03:17,100 --> 00:03:19,720
-qui sont bien sûr en lien avec l'exercice à réaliser
-which are of course related to the exercise to be performed
-프로젝트에 대한 모든 설명이 포함 된 파일을  
+00:03:09,140 --> 00:03:14,280
+여러분이 register를 누른 순간부터 C Piscine C 09 프로젝트에 등록됩니다.
 
 56
-00:03:19,720 --> 00:03:21,720
-et vous avez le sujet
-and you have the subject
-PDF 형식으로 다운로드 할 수 있습니다.
+00:03:14,300 --> 00:03:17,100
+앞으로 할 프로젝트와 관련된 비디오를 참조 할 수 있으며, 
 
 57
-00:03:21,940 --> 00:03:25,840
-qui contient toutes les instructions du projet à réaliser
-which contains all the instructions for the project to be carried out
+00:03:17,100 --> 00:03:21,720
+프로젝트에 대한 모든 설명이 포함 된 파일을 PDF 형식으로 다운로드 할 수 있습니다.
 
 58
-00:03:25,840 --> 00:03:29,200
-donc sous forme de PDF que vous allez télécharger
-therefore in the form of PDF that you will download
-
-59
 00:03:30,440 --> 00:03:34,980
-Si jamais vous essayez de vous inscrire à un projet et que vous ne pouvez pas vous y inscrire
-If you ever try to register for a project and cannot register for it
 프로젝트에 등록 할 수 없는 경우를 보겠습니다. 
 
-60
-00:03:34,980 --> 00:03:36,980
-voici ce que vous allez trouver
-this is what you will find
-
-61
+59
 00:03:39,020 --> 00:03:42,900
-Imaginons par exemple que je cherche à m'inscrire au projet C 11
-Imagine for example that I try to register for the C 11 project
 예를 들어 제가 C 11 프로젝트에 등록하려고 한다고 가정해 보겠습니다.
 
-62
+60
 00:03:43,440 --> 00:03:47,700
-vous voyez ici que je ne peux pas m'y inscrire et vous avez les raisons pour lesquelles je ne peux pas m'inscrire
-you see here that I cannot register and you have the reasons why I cannot register
 여기에 등록 할 수 없는 이유가 적혀 있습니다.
 
-63
+61
 00:03:47,760 --> 00:03:53,060
-je dois avoir validé le projet piscine C 08 et le projet piscine C 09
-I must have validated the pool project C 08 and the pool project C 09
 프로젝트 C 08과 프로젝트 C 09를 통과해야 등록할 수 있습니다..
 
-64
+62
 00:03:53,180 --> 00:03:55,120
-enfin pour en revenir aux examens
-finally to come back to exams
 마지막으로 시험에 대해서 다시 이야기해보면, 
 
-65
-00:03:55,120 --> 00:03:59,700
-et je vous conseille, à nouveau, de vraiment faire bien attention, à bien vous inscrire
-and I advise you, again, to be really careful, to register well
-다시 한 번, 정말 주의해서 프로젝트를 잘
+63
+00:03:55,120 --> 00:04:02,020
+다시 한 번, 정말 주의해서 프로젝트를 잘 등록해야 할 뿐만 아니라
 
-66
-00:03:59,840 --> 00:04:02,020
-non seulement vous devez vous inscrire au projet
-not only do you have to register for the project
-등록해야 할뿐만 
-
-67
-00:04:02,020 --> 00:04:03,320
-comme je viens de le faire
-as i just did
-아니라
-
-68
+64
 00:04:03,320 --> 00:04:09,740
-mais en plus de ça vous avez sur la gauche de votre dashboard donc sur la page d'accueil de l'intra l'agenda
-but in addition to that you have on the left of your dashboard so on the home page of the intra agenda
 여러분은 반드시 홈페이지 대시보드 왼쪽에 있는 agenda를 등록해야 합니다. 
 
-
-69
+65
 00:04:09,940 --> 00:04:12,060
-vous verrez apparaître ici les examens
-you will see the exams appear here
 여기에 EXAM이 나타난 것을 볼 수 있습니다.
 
-70
-00:04:12,060 --> 00:04:14,060
-vous devez bien faire attention
-you have to be careful
-시험 이벤트에 등록 할 때 
+66
+00:04:12,060 --> 00:04:23,820
+시험 이벤트에 등록 할 때 주의를 해야하므로
+프로젝트에 등록하고 시험 이벤트에도 등록하십시오.
 
-71
-00:04:15,140 --> 00:04:19,200
-à vous inscrire à l'événement de l'examen
-register for the exam event
-주의해야하므로 프로젝트에 등록하고 
-
-72
-00:04:19,480 --> 00:04:23,820
-donc vous inscrire au projet mais aussi à l'événement de l'examen
-so register for the project but also for the exam event
-시험 이벤트에도 등록하십시오.
-
-73
+67
 00:04:24,340 --> 00:04:26,340
-je vous souhaite une bonne piscine
-I wish you a good swimming pool
 즐거운 라피신이 되길 바라며 여러분을 응원합니다.
-translated by inyang, chelee, mki , yeslee :)
+<< translated by inyang, chelee, mki , yeslee :) >>

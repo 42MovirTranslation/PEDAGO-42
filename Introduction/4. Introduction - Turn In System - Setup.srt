@@ -1,271 +1,181 @@
 1
 00:00:00,000 --> 00:00:04,340
-In this video I will explain how to do the setup for the turn in system
-Dans cette vidéo je vais vous expliquer comment faire le premier set up du système de rendu
 이 영상에서는 프로젝트 제출을 위해 시스템 초기 세팅을 하는 방법에 대해 설명하겠습니다
 
 2
 00:00:04,340 --> 00:00:06,040
-more precisely for git
-plus précisément de git
 더 정확히 말하자면, git 세팅입니다
 
 3
 00:00:06,040 --> 00:00:10,420
-you will have to create an ssh key and then put it online
-il va falloir que vous créez une clé ssh et ensuite que vous la mettiez en ligne
 ssh 키를 만들어서 온라인에 업로드해야 합니다
 
 4
 00:00:10,420 --> 00:00:12,320
-I'll show you how
-je vais vous montrer comment faire
 어떻게 하는지 보여드리죠
 
 5
 00:00:12,320 --> 00:00:18,880
-you have to open the terminal, then you will use a command called "ssh-keygen"
-il faut ouvrir le terminal, puis vous allez utiliser une commande qui s'appelle "ssh-keygen"
 터미널을 열어서, "ssh-keygen" 명령을 사용하겠습니다
 
 6
 00:00:19,320 --> 00:00:20,920
-then press Enter
-vous allez appuyer sur Enter
 Enter를 눌러주세요.
 
 7
 00:00:20,920 --> 00:00:22,820
-it will show you that it will create an ssh key
-il va vous dire qu'il va créer une clé ssh
 ssh 키를 만들 것이라고 알려줍니다.
 
 8
 00:00:22,940 --> 00:00:26,700
-it will create it in a directory that we call "hidden" because it starts with a point.
-il va la créer dans un répertoire qu'on dit "cacher" car il commence par un point.
 ssh키는 ‘.’ 으로 시작하는 “숨겨진” 디렉토리에 만들어집니다.
 
 9
 00:00:26,700 --> 00:00:31,540
-it is called .ssh and will be in your home directory, it will create the id_rsa key in .ssh
-il s'appelle .ssh et il va créer la clef id_rsa, le tout dans votre repertoire
 그것은 .ssh라고 불리며, 당신의 디렉토리에 id_rsa 키를 만들 것입니다.
 
 10
 00:00:31,740 --> 00:00:35,060
-You can press Enter. Default values ​​should be correct
-Vous pouvez appuyer sur Enter. Les valeurs par défaut sont correctes
 Enter 키를 누르시면 됩니다.
 
 11
 00:00:35,130 --> 00:00:37,130
-you can put a password if you want to
-vous pouvez mettre un mot de passe si vous avez envie
 원한다면, 암호를 입력하실 수도 있습니다.
 
 12
 00:00:37,500 --> 00:00:39,620
-But you can also not do it, it's has you want.
-vous pouvez ne pas le mettre, c'est comme vous voulez.
 입력하지 않을수도 있습니다. 원하는대로 하세요.
 
 13
 00:00:39,620 --> 00:00:43,080
-If you put a password. You will need to type it often.
-Si vous le mettez vous allez devoir le taper souvent.
 다만 암호를 자주 입력해야 할 거에요.
 
 14
 00:00:43,300 --> 00:00:46,680
-I would advise you to start without a password. You will put one later for more security
-Je vous conseille pour commencer de ne pas en mettre et vous en mettrez un plus tard pour une meilleure sécurité
 일단 입력하지 않는 것을 추천드립니다. 나중에라도 안전하게 암호를 입력할수 있습니다.
 
 15
 00:00:46,809 --> 00:00:49,139
-you can press simply on Enter and you will have no password
-vous pouvez appuyez sur Enter et  juste sur enter et ainsi ne pas avoir de mot de passe
 그냥 Enter 키만 눌러주면 암호가 입력되지 않을 것입니다.
 
 16
 00:00:49,440 --> 00:00:52,300
-it has finished and therefore he created for you
-Il a terminé et donc il nous a créé si vous regardez bien
 끝났습니다. 잘 만들어졌네요.
 
 17
 00:00:52,300 --> 00:00:55,120
-an id_rsa key
-une clé id_rsa
 id_rsa 키와
 
 18
 00:00:55,540 --> 00:00:57,880
-and a public key id_rsa.pub.
-et une public key id_rsa.pub.
 id_rsa.pub 공개키가 잘 만들어졌습니다.
 
 19
 00:00:58,120 --> 00:01:02,820
-if you type "cat ~/.ssh/id_rsa"
-si vous faites "cat ~/.ssh/id_rsa"
 "cat ~/.ssh/id_rsa"를 입력하면
 
 20
 00:01:03,480 --> 00:01:06,520
-this is your private key, there is written RSA PRIVATE KEY
-voilà votre clé privée, il y a marquer RSA PRIVATE KEY et marquer rsa trêve et qui
 여기 비밀키인 RSA PRIVATE KEY가 출력됩니다.
 
 21
 00:01:06,700 --> 00:01:10,320
-you MUST NOT give this key to anyone
-c'est une clé qu'il faut absolument PAS donner à qui que ce soit,
 이건 절대 누구에게도 주지 말아야합니다.
 
 22
 00:01:10,580 --> 00:01:16,900
-otherwise they will have access to your git. they can push as if they were you. it's like identity theft
-sinon ils auront accès à vos git. ils pourront pusher comme si c'était vous. c'est comme un vol d'identité
 그렇지 않으면 누군가 마치 여러분 자신인 것처럼 git에 접근할 수 있을 것입니다. 일종의 신원 도용인 셈이죠.
 
 
 23
 00:01:17,580 --> 00:01:21,880
-What you can give or distribute freely ...
-Ce que vous pouvez donner ou distribuer librement parce qu'il n'y a aucun risque avec
 여러분이 자유롭게 공유할 수 있는 것은,
 
 24
 00:01:22,140 --> 00:01:25,000
-until someone break the system
-En tout cas pour le moment, tant que personne ne casse le système
 적어도 지금의 시스템이 제대로 작동하는 한
 
 25
 00:01:25,300 --> 00:01:31,460
-you can give the file "id_rsa.pub" which contains inside the public part of your key
-vous pouvez donner le fichier "id_rsa.pub"  qui contient à l'intérieur la partie publique de votre clef
 키의 공용 부분을 포함하는 "id_rsa.pub" 파일입니다.
 
 26
 00:01:31,680 --> 00:01:35,880
-I'm not going to explain how it works, but you can find out how the public and private key system works
-Je ne vais pas vous expliquer comment ca marche, mais vous pouvez chercher comment marche le système de clés publiques et privées
 어떻게 작동하는지는 설명드리지 않겠지만, 공개키와 비밀키 시스템이 어떻게 작동하는지 찾아보셔도 좋습니다.
 
 27
 00:01:37,140 --> 00:01:39,140
-you can copy it
-vous pouvez la copier
 이걸 복사할 수 있습니다.
 
 28
 00:01:39,180 --> 00:01:41,760
-By highlighting it in and pressing Command + C.
-En la prenant en entier et en faisant Command+C.
 전체를 드래그해서 Command+C를 하세요.
 
 29
 00:01:41,980 --> 00:01:45,920
-Then you go to the intranet
-Puis vous allez sur l'intranet
 그리고 인트라넷으로 가서
 
 30
 00:01:46,300 --> 00:01:51,080
-you will click on your photo then settings then "ssh key"
-vous allez cliquer sur votre photo puis settings puis "ssh key"
 프로필 사진을 클릭하고, 설정을 클릭한 다음, "SSH Key"를 클릭합니다.
 
 31
 00:01:51,080 --> 00:01:53,080
-You click on "New SSH Key"
-Vous faites "New SSH Key"
 “New SSH Key”를 클릭하세요.
 
 32
 00:01:53,740 --> 00:01:58,400
-you paste the key, it should start with 'ssh-rsa'
-vous collez la clé donc ça devrait démarrer par 'ssh-rsa'
 복사한 것을 붙여넣습니다. 'ssh-rsa'로 시작해야 합니다.
 
 33
 00:01:58,630 --> 00:02:03,509
-there should be lots of character and it should end with your login followed by @ and the name of the machine you are currently on
-il devrait y avoir plein de caractère et ça devrait se finir par votre login suivi de @ et du nom de la machine sur laquelle vous êtes en ce moment
 엄청 긴 글자들이 있고, 인트라 아이디@와 지금 접속한 PC의 이름으로 끝나야 합니다.
 
 34
 00:02:04,020 --> 00:02:06,660
-you press "submit" and hopefully
-vous faites "submit" et si tout va bien
 "submit"을 클릭한 뒤, 잘 되었다면
 
 35
 00:02:06,940 --> 00:02:11,600
-you should have a result in green
-vous devriez avoir un résultat en vert
 초록색 결과창이 나올 것입니다.
 
 36
 00:02:11,600 --> 00:02:13,600
-you now have a key setup
-vous avez maintenant une clé
 이제 여러분은 이 키를 가지고 있습니다.
 
 37
 00:02:13,960 --> 00:02:16,900
-and it will allow you to use git with this key
-et ça va vous permettre d'utiliser git avec cette clé
 이 키로 git을 사용할 수 있게 됩니다.
 
 38
 00:02:17,280 --> 00:02:21,380
-for example, if your private key was stolen you can generate another one
-le truc c'est que si par exemple vous clé privée se faisait voler vous pouvez en générer une autre
 예를 들어, 개인 키가 유출되면 또 다른 키를 새로 만들 수 있습니다.
 
 39
 00:02:21,380 --> 00:02:23,300
-just send it back
-Il suffira de la renvoyer
 그러면 다시 입력하면 됩니다.
 
 40
 00:02:23,300 --> 00:02:25,780
-Beware! You can only have one key at a time
-attention! Vous ne pouvez avoir qu'une seule clé à la fois
 조심해~! 한 번에 하나의 키만 가지고 있을 수 있습니다.
 
 41
 00:02:26,100 --> 00:02:30,620
-moreover, if at some point your key is corrupted or you have a problem
-C'est comme ça et de plus, si à un moment votre clé elle est corrompu ou que vous avez un problème
 만약 어느 순간 키가 변형되거나, 어떤 문제가 생긴다면
 
 42
 00:02:30,640 --> 00:02:32,220
-You just have to regenerate the key
-Il vous suffit de régénérer le cle de la remettre avec nous à cesser de ski et hop vous aurez accès de nouveau à votre guide
 그냥 키를 다시 만들기만 하면 됩니다.
 
 43
 00:02:32,220 --> 00:02:34,220
-Put it back using "New SSH Key"
-De la remettre à l'aide de "New SSH Key"
 “New SSH Key”를 사용하여 키를 다시 입력하면
 
 44
 00:02:34,220 --> 00:02:36,160
-And you will have access to your gits again
-Et vous aurez de nouveau accès à vos gits
 git에 다시 접근할 수 있습니다.
 
 45
 00:02:36,160 --> 00:02:39,780
-Now you know everything about how to prepare your git with us
-Dorenavant vous savez tout sur comment préparer votre git chez nous
 이제 git을 사용하기 위한 준비가 끝났습니다.
-translated by inyang, chelee, mki , yeslee :)
+<< translated by inyang, chelee, mki , yeslee :) >>
