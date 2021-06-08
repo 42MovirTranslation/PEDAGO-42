@@ -518,4 +518,4 @@ float로 사용할 수 있는 4바이트가 있는 거예요.
 129
 00:08:08,350 --> 00:08:12,180
 공용체 키워드에 대해 알게 되셨군요.
-translated by ji-kim, mki, mseo, yeslee and inyang :)
+<< translated by ji-kim, mki, mseo, yeslee and inyang :) >>

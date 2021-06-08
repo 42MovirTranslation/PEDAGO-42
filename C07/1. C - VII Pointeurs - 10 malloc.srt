@@ -642,4 +642,4 @@ free 할 때 NULL을 가리키는 것이 좋을 수도 있습니다, 문제가 �
 158
 00:12:47,870 --> 00:12:52,779
 메모리를 할당할 수 있는 malloc을 사용하고 free 시키는 방법을 보았습니다
-translated by mki, mseo, ji-kim, inyang and yeslee :)
+<< translated by mki, mseo, ji-kim, inyang and yeslee :) >>

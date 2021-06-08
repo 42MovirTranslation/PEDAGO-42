@@ -325,4 +325,4 @@ git stash는 다른 도구들 만큼 위험합니다
 81
 00:06:11,000 --> 00:59:59,000
 무언가 다른 것을 할 수 있습니다
-translated by mki, mseo, inyang, ji-kim, and yeslee :)
+<< translated by mki, mseo, inyang, ji-kim, and yeslee :) >>

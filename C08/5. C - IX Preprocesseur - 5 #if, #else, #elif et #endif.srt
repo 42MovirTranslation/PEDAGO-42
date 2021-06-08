@@ -246,5 +246,4 @@ POUIC이 정의되어있으니… 만약 이 줄을 지우면.
 58
 00:04:23,520 --> 00:04:26,270
 다음 비디오에서 또 봐요. 안녕~
-
-translated by inyang, ji-kim, yeslee, mki and mseo :)
+<< translated by inyang, ji-kim, yeslee, mki and mseo :) >>

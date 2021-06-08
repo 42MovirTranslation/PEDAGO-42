@@ -268,4 +268,4 @@ char *를 통해 접근한 다음
 65
 00:04:46,010 --> 00:04:50,770
 이것이 문자열을 정의하는 방법입니다!
-translated by mseo, ji-kim, inyang, chelee, mki and yeslee :)
+<< translated by mseo, ji-kim, inyang, chelee, mki and yeslee :) >>

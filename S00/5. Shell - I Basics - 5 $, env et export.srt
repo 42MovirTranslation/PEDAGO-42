@@ -137,4 +137,4 @@ $truc의 값이 환경에 있죠
 35
 00:02:55,000 --> 00:59:59,000
 이것으로 쉘 환경 변수에 대한 영상을 마무리하겠습니다
-translated by inyang, mseo, mki, yeslee, and ji-kim :D
+<< translated by inyang, mseo, mki, yeslee, and ji-kim :D >>

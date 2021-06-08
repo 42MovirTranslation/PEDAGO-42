@@ -129,4 +129,4 @@ man을 끄기 위해서는 q를 눌러야하는 것을 기억하셔야 합니다
 33
 00:02:48,000 --> 00:59:59,000
 커맨드 라인에서 제어 신호에 대한 강의를 마치겠습니다.
-Translated by yeslee, inyang, ji-kim, mseo, chelee and mki :)
+<< Translated by yeslee, inyang, ji-kim, mseo, chelee and mki :) >>

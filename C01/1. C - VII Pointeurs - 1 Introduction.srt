@@ -193,4 +193,4 @@ MMU(메모리관리장치)라고 부르는 것이
 49
 00:01:50,460 --> 00:01:53,540
 엄청나게 유용하다는 걸 알게 될 거예요!
-translated by inyang, chelee, mki, yeslee, mseo and ji-kim:)
+<< translated by inyang, chelee, mki, yeslee, mseo and ji-kim:) >>
