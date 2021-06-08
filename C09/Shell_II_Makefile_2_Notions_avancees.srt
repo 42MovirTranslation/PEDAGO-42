@@ -89,7 +89,6 @@ Makefile로 할 수 있는 것들을 조금 더 자세하게 볼 수 있는 이 
 00:01:48,700 --> 00:01:51,360
 -g 등등
 
-
 24
 00:01:53,380 --> 00:01:55,380
 그러면, Makefile은
@@ -374,5 +373,4 @@ rm을 $(RM)으로 바꿔줍니다
 98
 00:07:43,669 --> 00:07:46,839
 지금까지 조금 더 나아진 Makefile을 함께 봤습니다. (짝짝짝)
-
-translated by inyang, chelee, mki and yeslee :)
+<< translated by inyang, chelee, mki and yeslee :) >>
