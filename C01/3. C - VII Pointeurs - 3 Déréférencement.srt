@@ -168,14 +168,10 @@ int의 포인터의 포인터의 포인터의 포인터의 포인터. 그것은 
 
 45
 00:03:05,049 --> 00:03:06,849
-ptr 6
-"ptr6"
 마지막엔 ‘ptr6’가 있죠.
 
 46
 00:03:06,849 --> 00:03:08,849
-et je vais donner l'adresse de ptr 5
-which takes the address of "ptr5"
 ‘ptr5’의 주소 값을 가지고 있어요.
 
 47
