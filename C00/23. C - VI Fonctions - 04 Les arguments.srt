@@ -164,8 +164,6 @@ int 타입을 보낼 것입니다
 
 42
 00:01:47,860 --> 00:01:50,570
-d'utilité parce que bah je lui ai juste
-has little to no use because well I
 이 함수는 별로 쓸모가 없습니다
 
 43
@@ -338,8 +336,6 @@ float가 0.5가 아닌 0.8로 선언되었기 때문입니다
 
 85
 00:04:23,020 --> 00:04:26,380
-retourné également enfin seulement la
-I returned only the
 오직 제 연산의 리턴값만 반환합니다
 
 86
