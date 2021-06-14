@@ -44,297 +44,199 @@
 
 12
 00:01:05,600 --> 00:01:11,100
-Et qui vont avoir un maillon 'a' et un maillon 'b' et qui vont pointer l'un vers l'autr
-And which will have a link 'a' and a link 'b' and which will point to one or another
 그리고 이 트리는 두 개의 요소를 각각 연결하는 link ‘a’와 link ‘b’를 가질 것입니다.
 
 13
 00:01:11,420 --> 00:01:15,489
-avec des conditions, il peut y avoir des arbres avec N conditions...
-depending on certain conditions, there can be trees with N conditions ...
 특정 조건에서는, N개의 조건을 가지는 트리가 있을 수 있겠군요.
 
 14
 00:01:16,100 --> 00:01:19,659
-Un assez bon exemple de ça si vous vous souvenez.
-A pretty good example of that if you remember.
 여러분들이 알고 있는 꽤 좋은 예가 있습니다.
 
 15
 00:01:20,180 --> 00:01:22,540
-C'est le T9 tout simplement.
-It is simply the T9.
 이건 T9를 간단하게 만든 것입니다.
 (T9: 휴대전화 영어 텍스트 입력 방식의 종류)
 
 16
 00:01:23,750 --> 00:01:26,949
-Alors le T9, je sais pas si ça vous rappelle quelque chose...
-So the T9, I don't know if that reminds you of anything ...
 자 T9를 여러분들이 기억하실지는 모르지만...
 
 17
 00:01:27,290 --> 00:01:30,429
-Dans le passé à un moment, on avait des téléphones comme ça avec seulement 12 touches.
-In the past, we had phones like this with only 12 buttons.
 과거에는 이렇게 오직 12개의 버튼만 있는 핸드폰을 사용했습니다.
 
 18
 00:01:30,799 --> 00:01:37,419
-Dont 10 chiffres et il y avait aussi des caractères d'écriture sur les lettres.
-Including 10 digits and there were also writing characters on the buttons.
 10개의 숫자를 포함해, 버튼에 알파벳도 있었습니다.
 
 19
 00:01:38,140 --> 00:01:43,760
-Et donc pour que le T9 fonctionne
-And so for the T9 to work
 그리고 T9가 동작하려면
 
 20
 00:01:44,260 --> 00:01:46,260
-on construisait des dictionnaires,
-we built dictionaries,
 입력한 알파벳 조합에 맞게 입력할 가능성이 있는
 
 21
 00:01:46,939 --> 00:01:50,319
-avec à un moment donné toutes les possibilités
-with all the possibilities
 모든 단어를 가지고 있는 사전을 만들어야 했습니다.
 
 22
 00:01:51,110 --> 00:01:57,339
-pour une combinaison possible enregistrée a un moment. Par exemple si on faisait la touche 3 puis la touche 2,
-for a possible registered combination. For example if we press key 3 then key 2,
 예를 들어 3을 누르고 2를 누르면,
 
 23
 00:01:57,979 --> 00:02:01,599
-il y avait un endroit dans les mémoires on allait avoir tous les mots possibles
-there was a place in our memories we were going to have all the possible words
 ‘d’와 ‘a’의 조합에 대한 모든 가능성 있는 단어들이 메모리에 저장되어 있습니다.
 
 24
 00:02:02,000 --> 00:02:08,440
-pour cette combinaison. Et ça marche beaucoup mieux que de faire l'inverse et d'enregistrer tous les mots
-for this combination. And it works much better than doing it the other way around: recording all the words
 이런 방법은 다른 방식보다 더 효과적입니다.
 
 25
 00:02:08,620 --> 00:02:12,980
-et ensuite les touches les touches correspondantes possibles.
-and then the corresponding possible keys.
 모든 단어를 기록하고, 가능한 키조합에 대응하기 때문입니다. 
 
 26
 00:02:13,940 --> 00:02:17,040
-Mais aujourd'hui c'est des arbres binaires dont on va parler.
-But today we are going to talk about binary trees.
 그러나 오늘은 이진 트리에 대해 이야기해볼 겁니다.
 
 27
 00:02:17,520 --> 00:02:20,660
-Alors pourquoi les arbres binaires ? Parce que c'est un exemple classique.
-So why binary trees? Because it's a classic example.
 그래서… 왜 이진 트리일까요? 왜냐면 가장 클래식한 예시이기 때문입니다.
 
 28
 00:02:21,129 --> 00:02:25,859
-Avec une utilité directe que vous allez voir tout de suite, qui est vraiment intéressante.
-With a direct utility that you will see right away, which is really interesting.
 바로 볼 수 있는 예를 사용하면 아주 유용합니다.
 
 29
 00:02:26,110 --> 00:02:28,769
-Et donc on va regarder tout de suite un petit exemple.
-And so we will immediately look at a small example.
 그래서! 아주 쉬운 예를 보겠습니다.
 
 30
 00:02:31,659 --> 00:02:38,789
-Donc d'abord, on va se poser la question de "comment créer un arbre binaire" en termes de code.
-So first, let's think about how to code binary trees.
 자 먼저, 어떻게 이진 트리를 코드로 작성하는지 생각해봅시다.
 
 31
 00:02:39,790 --> 00:02:45,360
-C'est assez simple et ça va beaucoup ressembler à ce que vous faites lorsque vous créez votre structure
-It's quite simple and it will be pretty similar to how we create structures
 연결리스트에서 구조체를 만들었던 방법이랑
 
 32
 00:02:45,849 --> 00:02:49,199
-pour une liste chainée.
-for a linked list.
 거의 유사하고 간단합니다.
 
 33
 00:02:50,140 --> 00:02:52,739
-Donc là on utilise 'typedef'
-So here we use 'typedef'
 여기에 “struct”의 반복을 피하고자 “typedef’를 쓰고,
 
 34
 00:02:55,180 --> 00:03:02,160
-Pour pas avoir à répéter le mot struct à chaque fois et on va l'appeler "s_binary_tree".
-to not have to repeat the word "struct" every time and we will call it "s_binary_tree".
 이걸 “s_binary_tree”라고 합시다.
 
 35
 00:03:07,200 --> 00:03:11,060
-Je vais pouvoir mettre ma donnée tout simplement.
-I will be able to put my data, quite simply.
 여기에 꽤 간단하게 데이터를 넣을 수 있습니다.
 
 36
 00:03:11,340 --> 00:03:19,080
-Ça pourrait être, ça pourrait être un void*. Mais là on va faire simple, on va juste mettre un int a.
-It could be a "void *" or anything else, but here we are going to keep it simple, we will just put an "int a".
 “void *”가 될 수도 있고 아무거나 될 수 있습니다. 그냥 간단하게 “int a”로 하죠.
 
 37
 00:03:19,920 --> 00:03:25,280
-Ensuite, on va avoir un pointeur vers une autre struct s_binary_tree.
-Next, we will have pointers to other struct "s_binary_tree":
 다음으로, 다른 "s_binary_tree"를 가리키는 포인터들을 만듭시다.
 
 38
 00:03:25,810 --> 00:03:28,019
-Donc un premier pointeur left.
-first a pointer named left,
 첫 번째 포인터의 이름은 left로 하고,
 
 39
 00:03:35,540 --> 00:03:39,639
-Et un autre pointeur qu'on va appeler tout simplement right.
-and another pointer that we will simply call right.
 다른 포인터는 right라고 하죠.
 
 40
 00:03:47,000 --> 00:03:50,350
-Donc là c'est bon, j'ai ma structure.
-So there it is, I have my structure.
 자 끝났습니다. 구조체를 만들었어요.
 
 41
 00:03:56,000 --> 00:04:02,380
-Là j'ai la structure de mon arbre binaire. Et la, vous allez me dire: "A quoi ça va bien pouvoir nous servir"
-There I have the structure of my binary tree. And you may tell me: "Why is it useful for us?"
 여기 이진 트리 구조체가 있습니다. 여러분들은 이런 의문이 들 거에요. "왜 이 구조체가 필요하죠?"
 
 42
 00:04:03,740 --> 00:04:06,760
-Il ya quelque chose qui s'appelle la "recherche par dichotomie",
-There is something called "dichotomy search",
 생소하시겠지만, "이진 검색(dichotomy search)"이라고 불리는 개념이 있습니다.
 
 43
 00:04:07,460 --> 00:04:14,079
-si ça vous dit rien, on va prendre l'exemple: imaginons qu'on a un tableau d'int de données.
-is normal that it doesn't ring a bell, let's take an example: let's imagine that we have an array of data int.
 예시를 하나 봅시다. int형 데이터 배열을 상상해보죠.
 
 44
 00:04:15,890 --> 00:04:22,270
-Trié dans l'ordre croissant et on a une valeur qu'on veut insérer au bon endroit dans ce tableau trié.
-Sorted in ascending order and we have a value that we want to insert in the right place in this sorted array.
 오름차순으로 정렬되어있고, 이 배열의 올바른 위치에 새로운 값을 넣고 싶습니다.
 
 45
 00:04:23,630 --> 00:04:31,299
-Deux méthodes: première méthode parcourir tout le tableau jusqu'à trouver l'endroit où insérer ma nouvelle valeur.
-Two methods: first method browse the whole array until you find the place where to insert my new value.
 이때 두 가지 방법이 있습니다. 첫 번째로 새로운 값을 넣을 곳을 찾을 때까지 전체 배열을 탐색하는 것입니다.
 
 46
 00:04:33,860 --> 00:04:35,860
-Deuxième méthode, un peu plus habile...
-Second method, a little more skillful …
 두 번째 방법은, 약간 좀 기술이 필요한데...
 
 47
 00:04:36,650 --> 00:04:41,500
-on va pouvoir aller regarder une valeur spécifique comme par exemple à la moitié du tableau.
-we can look at a specific value, for example at the middle point of the array,
 예를 들어 배열의 중간에 있는 특정 값을 보고,
 
 48
 00:04:42,170 --> 00:04:46,779
-Et comparer nous avec la valeur qu'on veut insérer si c'est plus grand ou plus petit. On va ensuite
-and compare it with the value we want to insert, if it's bigger or smaller.
 우리가 집어넣을 값보다 더 큰지 혹은 작은지 비교합니다.
 
 49
 00:04:47,240 --> 00:04:50,799
-On va faire la même chose mais en prenant la moitié de la moitié du tableau.
-We are going to do the same thing but taking half of half of the table.
 같은 작업을 또 할 거지만, 배열 1/4 값을 보고
 
 50
 00:04:50,900 --> 00:04:55,120
-Et là de nouveau se dire est-ce que c'est plus grand plus petit et ainsi de suite...
-And there again check if it is bigger or smaller and so on ...
 더 큰지 작은지 확인합니다.
 
 51
 00:04:55,730 --> 00:04:58,809
-Et ça en fait, ça va nous permettre d'économiser
-And that in fact, that will allow us to reduce
 이렇게 하면, 꽤나 많은 수의 연산을 줄일 수 있고,
 
 52
 00:04:59,480 --> 00:05:04,420
-considérablement le nombre d'opérations qu'on va faire, cela va être beaucoup plus rapide. Par exemple pour un tableau de
-considerably the number of operations, it will be much faster.
 좀 더 빨라집니다.
 
 53
 00:05:04,730 --> 00:05:08,890
-imaginez avec 2 milliards d'int on va faire seulement trente et une opération
-In a 2 billion int array, we will only do 31 operations.
 20억 크기 int 배열에서, 오직 31번의 연산을 합니다.
 
 54
 00:05:10,940 --> 00:05:13,959
-parce que du coup à chaque fois forcément on divise par deux le
-because each time we divide by two
 왜냐하면, 매번 가능성 있는 수를 절반으로 줄이기 때문에
 
 55
 00:05:14,750 --> 00:05:17,170
-nombre de possibilités c'est beaucoup plus efficace
-the number of possibilities, is much more efficvérif
-좀 더 효과적입니다.
+좀 더 효과적입니다
 
 56
 00:05:17,840 --> 00:05:24,459
-vous allez me dire quel est le rapport avec les arbres binaires. C'est assez simple, c'est qu'en fait ça va également être un moyen
-You may be wondering what does this has to do with binary trees. It's quite simple, in fact it is a way
 여러분들은 이게 이진 트리와 무슨 상관이 있는지 궁금할 겁니다.
 
 57
 00:05:25,100 --> 00:05:30,790
-de faire cette recherche par dichotomie seulement là au lieu de faire des calculs
-to do this "dichotomy research": instead of doing calculations
 꽤 간단하지만 사실 계산하는 것 대신에 “이진 탐색”을 하는 것입니다.
 
 58
 00:05:31,000 --> 00:05:34,299
-on va aller à gauche et à droite dans l'arbre binaire
-we will go to the left or to the right in the binary tree.
 이진 트리에서는 왼쪽이나 오른쪽으로 갈 겁니다
 
 59
 00:05:34,720 --> 00:05:42,280
-pour que vous puissiez mieux le visualiser, on va regarder une représentation un peu schématique de l'arbre
-For you to have a clearer vision, we will look at schematic representation of the tree.
 여러분들이 잘 이해하실 수 있도록, 그림으로 표현된 트리를 보겠습니다.
 
 60
 00:05:44,400 --> 00:05:47,800
-Voilà donc ça ça pourrait être une représentation
-So this could be a representation
 자, 이게 이진 트리 표현법이 되겠습니다.
 
 61
@@ -452,15 +354,11 @@ So this could be a representation
 
 89
 00:08:03,890 --> 00:08:09,159
-c'est plus grand donc je vais à droite plus petits ou plus grands de 38 c'est plus petit je vais à gauche
-It's bigger (32 > 27), so I'm going to the right. Smaller or bigger than 38? Smaller,so I'm going to the left.
 32가 더 크므로, 오른쪽으로 내려갑니다. 38보다 작은가요? 큰가요? 작군요.
 그래서 왼쪽으로 내려갑니다.
 
 90
 00:08:09,380 --> 00:08:15,399
-ah ça encore plus petit jeu la gauche et là tout de suite directement je sais que je peux inséré
-Smaller than 36, left. Smaller than 34, left. We immediately know that I can insert
 36보다 작고, 34보다 작으므로, 즉시 새로운 구조체를 만들어
 
 91
