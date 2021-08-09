@@ -402,4 +402,3 @@ float x를 주지 않았기 때문입니다
 00:05:09,760 --> 00:05:14,400
 이제 당신 차례 입니다;)
 <<translated by mseo, ji-kim, inyang, chelee, mki and yeslee :)>>
-

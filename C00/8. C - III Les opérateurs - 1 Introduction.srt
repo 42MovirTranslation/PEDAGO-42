@@ -294,5 +294,3 @@ int형에서 소수 부분은 항상 사라져 버립니다.
 00:05:35,000 --> 00:59:59,000
 저장할 필요가 없습니다.
 << translated by inyang, chelee, mki, yeslee, mseo and ji-kim :) >>
-
-

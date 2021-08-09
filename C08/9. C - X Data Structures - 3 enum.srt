@@ -677,4 +677,4 @@ enum들이 서로 대치하는 상황이
 170
 00:06:23,560 --> 00:06:26,670
 알맞게 사용해야 합니다.
-<< translated by mseo, yeslee, inyang, mki, and ji-kim ;) >>
+<< translated by mseo, yeslee, inyang, mki, and ji-kim :) >>

@@ -474,4 +474,3 @@ float형의 경우, 연산자를 사용할 순 있지만 1과 0이 int형과는 
 00:09:55,350 --> 00:10:00,740
 그러므로 자신이 무슨 일을 하고 있는지 잘 알고 있지 않는 이상 사용을 권하지 않습니다. 
 << translated by inyang, chelee, mki, yeslee, mseo, and ji-kim  :) >>
-

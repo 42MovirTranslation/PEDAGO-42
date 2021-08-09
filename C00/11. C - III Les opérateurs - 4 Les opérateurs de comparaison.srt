@@ -561,4 +561,3 @@ You cannot force the compiler to do these calculations.
 00:10:17,279 --> 00:10:21,919
 우리는 모든 비교 연산자를 보았으므로, 이제 모든 것을 알고 있는겁니다!
 << translated by inyang, chelee, mki, yeslee, mseo and ji-kim :) >>
-

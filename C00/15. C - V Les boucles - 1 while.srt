@@ -112,9 +112,6 @@ while(1) 이란, 괄호 안의 값이 0이 아닌 동안에는
 
 29
 00:01:53,759 --> 00:02:01,228
-Tout simplement. Donc ici là si je faisais ça
-Quite simply. So I do this i = 0
-
 간단하게요. 써보겠습니다.
 
 30
@@ -306,5 +303,3 @@ i 곱하기 i. 안에 제곱값을 넣을 겁니다.
 예를 들자면, 이용자에게서 키보드 입력 값을 받는다던가 하는 것들이죠. 결론적으로 매우 유용합니다.
 이게 끝입니다. 이제 while문을 쓸 줄 알게 됐군요!
 << translated by inyang, chelee, mki, yeslee, mseo, and ji-kim :) >>
-
-

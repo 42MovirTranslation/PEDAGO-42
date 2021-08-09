@@ -382,4 +382,4 @@ tab2[1] + 2입니다. 같을까요?
 95
 00:06:51,560 --> 00:06:55,090
 짜잔! 이제 배열에 대해 모든 것을 알게 되었습니다!
-<< translated by mseo, ji-kim, inyang, chelee, mki and yeslee :) and special guest wopark >>
+<< translated by mseo, ji-kim, inyang, chelee, mki and yeslee :) >>
