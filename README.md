@@ -54,7 +54,7 @@
 24. C - XI Autres mots clés - const
 25. C - XI Autres mots clés - static
 
-### [C01](https://www.youtube.com/playlist?list=PLVQYiy6xNUxz5wbzZn4tfUhF4djgzscB-)
+### [C01](https://www.youtube.com/playlist?list=PLVQYiy6xNUxytsXWxZx6odBJMbRktIHTs)
 
 1. C - VII Pointeurs - 1 Introduction
 2. C - VII Pointeurs - 2 Assignation
