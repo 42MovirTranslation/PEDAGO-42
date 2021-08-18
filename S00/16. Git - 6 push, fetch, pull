@@ -1,0 +1,707 @@
+https://youtu.be/gy3PPotpfGI?list=PLVQYiy6xNUxxhvwi0PGmXb5isUdVwmsg8
+
+
+1
+00:00:01,000 --> 00:00:07,000
+In this video we will now use git with a remote server
+이번 영상에서는 git을 remote(원격) 서버와 함께 사용하는 법을 보여드리겠습니다.
+
+2
+00:00:07,000 --> 00:00:13,000
+up until now, we were working locally, which is somewhat useful
+지금까지는 로컬에서만 작업했습니다. 어느 정도 유용했지만
+
+3
+00:00:13,000 --> 00:00:16,000
+but we could not work with other people
+다른 사람과 작업할 순 없었죠.
+
+4
+00:00:16,000 --> 00:00:20,000
+if someone wanted to work with you, they would have to copy git
+만약 누군가가 당신과 일하고 싶다면 git을 복사해야 합니다.
+
+5
+00:00:20,000 --> 00:00:24,000
+but we don’t have a shared location to work together
+하지만 같이 일할 수 있도록 공유하는 공간이 없었죠.
+
+6
+00:00:24,000 --> 00:00:27,000
+we are now going to work with a remote server
+이제 원격 서버로 작업하는 방법을 보여드리겠습니다.
+
+7
+00:00:27,000 --> 00:00:30,000
+how? well we just need to find a remote server somewhere
+어떻게 할까요? 먼저 원격 서버를 가져와야 합니다. 
+
+8
+00:00:30,000 --> 00:00:35,000
+I can also make a remote server by myself
+제가 직접 원격 서버를 만드는 방법도 있지만
+
+9
+00:00:35,000 --> 00:00:40,000
+or I can use something quite popular, github
+이미 유명한 github를 써도 되지요.
+
+10
+00:00:40,000 --> 00:00:45,000
+so I created a remote repository on github
+github에서 원격 repository(저장소)를 만들었습니다.
+
+11
+00:00:45,000 --> 00:00:50,000
+and I’ll show you how to add it 
+이것을 어떻게 추가하는 지 보여드리죠.
+
+12
+00:00:50,000 --> 00:00:57,000
+I am in my git, branch master, no problem
+현재 git의 branch master에 있군요. 좋아요.
+
+13
+00:00:57,000 --> 00:01:04,000
+with git log, I see where I’m standing, ok 
+git log을 통해 어디에 있는지 확인하고요. 좋습니다.
+
+14
+00:01:04,000 --> 00:01:08,000
+so how do I go about adding my remote server?
+자, 그래서 원격 서버는 어떻게 추가할까요?
+
+15
+00:01:08,000 --> 00:01:11,000
+there is a command, git remote
+명령어를 쓰면 됩니다. git remote은
+
+16
+00:01:11,000 --> 00:01:14,000
+that manages remote servers
+원격 서버들을 관리합니다.
+
+17
+00:01:14,000 --> 00:01:18,000
+and I will now add a remote server
+이제 추가해볼까요?
+
+18
+00:01:18,000 --> 00:01:21,000
+if I press Enter, it shows me how it works
+여기서 바로 엔터를 누르면 어떻게 쓸 수 있는지 보여줍니다.
+
+19
+00:01:21,000 --> 00:01:23,000
+git remote add, the name and url
+git remote add, 그 다음에 이름, 주소
+
+20
+00:01:23,000 --> 00:01:26,000
+for the name I will choose origin
+이름으론 origin을 쓰겠습니다.
+
+21
+00:01:26,000 --> 00:01:28,000
+I could put any name
+아무 이름이나 상관 없어요.
+
+22
+00:01:28,000 --> 00:01:35,000
+but there’s a reason, origin is the basic name for a basic remote server
+하지만 origin이 “기본” 원격 서버를 위한 “기본”적인 이름인 이유가 있습니다.
+
+23
+00:01:35,000 --> 00:01:40,000
+you can use any name, but I advise you to call it origin
+그러니 되도록이면 origin을 쓰세요.
+
+24
+00:01:40,000 --> 00:01:43,000
+for example, there is the git clone command
+예시로, git clone 명령어가 있지요.
+
+25
+00:01:43,000 --> 00:01:48,000
+which, by default, will put the url in origin
+이 명령어는 디폴트로 origin에 주소를 담습니다.
+
+26
+00:01:48,000 --> 00:01:51,000
+I’ll show you this in less than 3 minutes
+이 예시는 3분 뒤에 보여드리죠.
+
+27
+00:01:51,000 --> 00:01:54,000
+now that’s done, if I git branch
+어쨌든 이것은 끝났으니 git branch를 해봅시다.
+
+28
+00:01:54,000 --> 00:01:56,000
+I see I still have dev and master, no problem
+여전히 dev와 master가 있군요. 좋아요.
+
+29
+00:01:56,000 --> 00:02:00,000
+and git branch -a, ok
+git branch -a를 해봐도 좋군요.
+
+30
+00:02:00,000 --> 00:02:06,000
+now I am going to push my local branch to the remote repo
+이제 제 로컬 branch를 원격 저장소로 push할 겁니다.
+
+31
+00:02:06,000 --> 00:02:08,000
+how? 
+어떻게 하냐고요?
+
+32
+00:02:08,000 --> 00:02:13,000
+I’ll do a git push
+git push를 합니다.
+
+33
+00:02:13,000 --> 00:02:15,000
+and type where I want to push
+push 하고 싶은 곳을 이어서 쓰면 되지요.
+
+34
+00:02:15,000 --> 00:02:17,000
+so if I just git push
+그냥 여기서 엔터를 치면
+
+35
+00:02:17,000 --> 00:02:22,000
+it says my local branch is not associated to a remote branch
+제 로컬 branch가 원격 branch와 연결되어 있지 않다고 하네요.
+
+36
+00:02:22,000 --> 00:02:24,000
+so I won’t do it
+그럼 이렇게 안 해야죠.
+
+37
+00:02:24,000 --> 00:02:28,000
+this is useful
+알려주니 좋네요.
+
+38
+00:02:28,000 --> 00:02:31,000
+now I git push origin master
+대신 git push origin master를 합니다.
+39
+00:02:31,000 --> 00:02:40,000
+that’s git push, then where I want to push, here the url, then which branch, remotely
+그러니까, git push, push하고 싶은 주소, 그리고 어느 원격 branch인지를 쓰는 겁니다.
+
+40
+00:02:40,000 --> 00:02:46,000
+git is not stupid, and I’m sending data
+git은 똑똑하니 잘 알아들었을 겁니다. 이제 데이터를 전송합니다.
+
+41
+00:02:46,000 --> 00:02:49,000
+it created a new branch master
+새로운 branch인 master를 만들었군요. 
+
+42
+00:02:49,000 --> 00:02:52,000
+now I have an existing remote branch
+이제 실존하는 원격 branch를 생성했습니다.
+
+43
+00:02:52,000 --> 00:02:54,000
+if I git branch -a
+git branch -a를 해보면
+
+44
+00:02:54,000 --> 00:02:58,000
+you can see I have something in the remotes, origin master
+remotes에 origin master가 있는 걸 확인할 수 있죠.
+
+45
+00:02:58,000 --> 00:03:02,000
+I have a branch which is not local called origin master
+origin master는 로컬 branch가 아닙니다.
+
+46
+00:03:02,000 --> 00:03:04,000
+but I have a local version of that branch
+하지만 로컬 형태의 branch로도 가지고 있죠.
+
+47
+00:03:04,000 --> 00:03:12,000
+I will prove this now by making a clone
+클론을 만듦으로써 증명해보겠습니다.
+
+48
+00:03:12,000 --> 00:03:15,000
+let’s say I am a second user and I use git clone
+제가 두 번째 사용자라 치고 git clone을 한다고 합시다.
+
+49
+00:03:15,000 --> 00:03:22,000
+and with git clone, I can retrieve a git repo
+git clone을 이용하면 git 저장소를 가져올 수 있습니다.
+
+50
+00:03:22,000 --> 00:03:27,000
+I am now cloning the git repo in my demo directory
+이제 demo 디렉토리에 있는 git 저장소를 클론합니다. 
+
+51
+00:03:27,000 --> 00:03:31,000
+and this is how you start
+이렇게 하면 됩니다.
+
+52
+00:03:31,000 --> 00:03:33,000
+I move to this directory, then status
+이 디렉토리로 들어가서 git status를 쳐보면
+
+53
+00:03:33,000 --> 00:03:36,000
+I am on branch master
+branch master에 있고요.
+
+54
+00:03:36,000 --> 00:03:39,000
+now with git branch, you see only the branch master
+git branch를 해보면 branch master만 있군요.
+
+55
+00:03:39,000 --> 00:03:40,000
+with git branch -a,
+git branch -a를 하면,
+
+56
+00:03:40,000 --> 00:03:48,000
+branch master, and also origin/HEAD which I’ll explain later
+branch master뿐만 아니라 origin/HEAD (나중에 설명해 드리죠)
+
+57
+00:03:48,000 --> 00:03:50,000
+there is something different in my branch master
+그리고 조금 다른 게 있군요
+
+58
+00:03:50,000 --> 00:03:52,000
+you see here that my branch is up to date with origin master
+여기를 보시면 제 branch는 origin master의 최신 버전으로 맞춰져 있습니다.
+
+59
+00:03:52,000 --> 00:03:58,000
+what happened here is because of this set upstream there
+이것은 이쪽에 set upstream 때문인데요.
+
+60
+00:03:58,000 --> 00:04:00,000
+by default, it took the setup of my local branch 
+디폴트로 로컬 branch의 구성을 가져가서 
+
+61
+00:04:00,000 --> 00:04:03,000
+and gave it to my remote branch
+원격 branch에 적용했기 때문이지요.
+
+62
+00:04:03,000 --> 00:04:07,000
+so for example, I edit toto
+그러니까, 예를 들어, toto를
+
+63
+00:04:07,000 --> 00:04:09,000
+here I change it to lolilolo
+lolilolo로 수정하고
+
+64
+00:04:09,000 --> 00:04:20,000
+then add, commit
+git add하고 git commit,
+
+65
+00:04:20,000 --> 00:04:23,000
+now git push, it’s going to work
+git push를 하면 잘 동작합니다.
+
+66
+00:04:23,000 --> 00:04:26,000
+it knows my local branch is linked to a remote branch
+제 로컬 branch가 원격 branch와 연결된 것을 알기 때문이죠.
+
+67
+00:04:26,000 --> 00:04:29,000
+so I don’t have to type git push origin master
+그러니 이제는 git push origin master라고 다 칠 필요가 없습니다.
+68
+00:04:29,000 --> 00:04:31,000
+let’s go back to the other side, if I git log
+이쪽 창으로 돌아갑시다. git log를 해보면
+
+69
+00:04:31,000 --> 00:04:46,000
+my branches are here, the commits I made, all this stuff
+모든 branch들이 다 있고, commit들도 다 있고, 아무튼 다 있습니다.
+
+70
+00:04:46,000 --> 00:04:49,000
+if here I do the same thing
+다른 창에서도 똑같이 해보면
+
+71
+00:04:49,000 --> 00:04:52,000
+I have my master, origin master and dev locally
+master, origin master, dev가 있는 게 보이죠.
+
+72
+00:04:52,000 --> 00:04:55,000
+dev has not been pushed
+로컬인 dev는 push 되지 않았습니다.
+
+73
+00:04:55,000 --> 00:05:01,000
+I see it local on this side, but it’s not there on the other side
+여기엔 로컬로 있지만, 다른 창에는 없지요.
+
+74
+00:05:01,000 --> 00:05:08,000
+it was never pushed, it was never created remotely
+그러니 push 되지 않았습니다. 이것은 원격으로 생성되지 않았기 때문이죠.
+
+75
+00:05:08,000 --> 00:05:10,000
+this is very important, local and remote data are not the same
+아주 중요한 포인트입니다. 로컬 데이터와 원격 데이터는 다릅니다.
+
+76
+00:05:10,000 --> 00:05:14,000
+you have to constantly synchronize them
+지속적으로 둘의 상태를 같게 맞춰줘야 합니다.
+
+77
+00:05:14,000 --> 00:05:18,000
+as you can see on the left, it thinks origin master is still in the same location
+왼쪽에 보시다 시피, origin/master이 아직도 c13baf에 있습니다. 
+
+78
+00:05:18,000 --> 00:05:25,000
+but it’s not the case, because you see on the left there is an extra commit
+하지만 맞지 않죠. 오른쪽을 보면 추가로 commit한 게 있으니까요.
+
+79
+00:05:25,000 --> 00:05:28,000
+on the left, the only way to know that is with git fetch
+이것을 왼쪽 창에서 확인하는 방법은 git fetch를 쓰는 것입니다.
+
+80
+00:05:28,000 --> 00:05:33,000
+git fetch will get the remote data on various branches
+git fetch를 사용하면 원격 데이터를 다른 branch들에 가져올 수 있습니다.
+
+81
+00:05:33,000 --> 00:05:40,000
+in our case, the current branch master
+이번 경우에는 현재 branch master겠죠.
+
+82
+00:05:40,000 --> 00:05:44,000
+I could use git fetch --all to find all the data on all branches remotely
+git fetch --all을 사용해서 원격 branch들에 있는 모든 데이터를 찾아봅니다.
+
+83
+00:05:44,000 --> 00:05:47,000
+so he got master, now with git log
+그렇게 master를 가져왔고요. git log를 해보면
+
+84
+00:05:47,000 --> 00:05:53,000
+it now knows my local master is here, and the remote master is not there
+로컬 master가 있는 게 보이지만 원격 master는 없습니다.
+
+85
+00:05:53,000 --> 00:05:57,000
+it’s on another commit
+다른 commit에 있지요.
+
+86
+00:05:57,000 --> 00:06:00,000
+with git log origin/master
+git log origin/master를 하면
+
+87
+00:06:00,000 --> 00:06:06,000
+it displays where I’m standing
+여기 보여줍니다.
+
+88
+00:06:06,000 --> 00:06:08,000
+if you wanted to update, how would you do it?
+만약 업데이트를 하고 싶다면 어떻게 해야 할까요?
+
+89
+00:06:08,000 --> 00:06:14,000
+for example, using a git rebase
+git rebase를 사용하면 됩니다.
+
+90
+00:06:14,000 --> 00:06:22,000
+I will git rebase origin/master on my master
+origin/master를 제 master에 rebase(한 브랜치에 변경된 사항을 다른 브랜치에 적용)합니다.
+
+91
+00:06:22,000 --> 00:06:26,000
+with git log, I see where I’m standing, ok 
+git log을 해보면 어떻게 됐는지 보여주죠. 좋아요.
+
+92
+00:06:26,000 --> 00:06:32,000
+the left and right are now identical
+이제 왼쪽 창과 오른쪽 창이 똑같아졌습니다.
+
+93
+00:06:32,000 --> 00:06:35,000
+there is a command that will fetch and rebase
+fetch와 rebase 그리고 fetch와 merge 중에
+
+94
+00:06:35,000 --> 00:06:38,000
+or fetch and merge, you have a choice
+선택할 수 있는 명령어가 있습니다.
+
+95
+00:06:38,000 --> 00:06:42,000
+called git pull
+git pull이라고 하죠.
+
+96
+00:06:42,000 --> 00:06:45,000
+to show this, I need to edit a file, as usual
+사용법을 보여드리기 위해서 일단 파일 하나를 수정할게요.
+97
+00:06:45,000 --> 00:06:48,000
+again I edit toto
+다시 한번 toto를 수정하겠습니다.
+
+98
+00:06:48,000 --> 00:06:51,000
+then add, commit
+add하고 commit하고
+
+99
+00:06:51,000 --> 00:06:56,000
+and then push
+push합니다.
+
+100
+00:06:56,000 --> 00:07:01,000
+now on the left, I type git pull
+자, 이제 왼쪽에서 git pull을 합니다.
+
+101
+00:07:01,000 --> 00:07:07,000
+either just git pull, and it will fetch and merge
+git pull만 입력하면, fetch하고 merge합니다.
+
+102
+00:07:07,000 --> 00:07:10,000
+or git pull --rebase, and it will fetch and rebase
+git pull --rebase라고 하면, fetch하고 rebase하죠.
+
+103
+00:07:10,000 --> 00:07:14,000
+my advice is to use in general --rebase
+저는 --rebase를 쓰라고 권하고 싶군요.
+
+104
+00:07:14,000 --> 00:07:18,000
+this is will prevent a few problems
+그러면 몇가지 문제가 생기는 것을 방지할 수 있거든요.
+
+105
+00:07:18,000 --> 00:07:25,000
+but this also depends on how you work, what company you work for
+하지만 어떤 방식으로 작업하느냐에 달렸죠. 어떤 회사에서 일하는지도 그렇고요.
+
+106
+00:07:25,000 --> 00:07:29,000
+I advice using rebase because you won’t get a merge commit
+rebase를 사용하면 commit을 merge하지 않기 때문에 저는 권장합니다.
+
+107
+00:07:29,000 --> 00:07:34,000
+it prevents branches from going back and forth between master and a branch
+그렇게 하면 branch들이 master와 다른 branch로 왔다갔다하는 것을 막을 수 있거든요.
+
+108
+00:07:34,000 --> 00:07:39,000
+as you wish
+뭐, 편한대로 하십쇼.
+
+109
+00:07:39,000 --> 00:07:48,000
+so now we do a fetch and a rebase
+그럼 fetch하고 rebase하겠습니다.
+
+110
+00:07:48,000 --> 00:07:54,000
+something funny here, so it did the fetch
+재밌군요. fetch는 했지만
+
+111
+00:07:54,000 --> 00:07:56,000
+the rebase however did not succeed
+rebase는 성공하지 못했습니다.
+
+112
+00:07:56,000 --> 00:08:02,000
+ne s'est pas non masters le cas la gauche là il est pas associée avec une branche remote à droite
+because it doesn’t know, my local master on the left is not associated to a remote branch on the left
+왜냐하면 왼쪽의 로컬 master는 오른쪽의 원격 branch와 연관되어 있지 않기 때문이지요.
+
+113
+00:08:02,000 --> 00:08:07,000
+it doesn’t know with what to rebase
+무엇과 rebase해야 하는지 모르는 거죠.
+
+114
+00:08:07,000 --> 00:08:14,000
+so we can tell it git pull --origin master
+그럼 알려줍시다. git pull --rebase origin master
+
+115
+00:08:14,000 --> 00:08:20,000
+I could also use set upstream as described here
+여기에 나온 대로 set upstream 옵션을 쓸 수도 있습니다.
+
+116
+00:08:20,000 --> 00:08:25,000
+I updated, and now I have the same thing on both sides
+이렇게 업데이트 되었고 보면 양쪽이 같은 것을 알 수 있습니다.
+
+117
+00:08:25,000 --> 00:08:32,000
+so it did fetch and rebase
+fetch하고 rebase했다는 거죠.
+
+118
+00:08:32,000 --> 00:08:36,000
+now, our last point, instead of using set upstream etc
+이제 마지막으로, set upstream 어쩌구를 쓰는 대신에
+
+119
+00:08:36,000 --> 00:08:44,000
+the first time I push, or when I want, there is an option I will show you
+처음에 push, 혹은 원할 때 아무때나 이 옵션을 넣으면 됩니다.
+
+120
+00:08:44,000 --> 00:08:54,000
+so now I edit pouet here
+그럼 먼저 pouet을 열어
+
+121
+00:08:54,000 --> 00:08:59,000
+change the value to 32
+값을 32로 수정하고요.
+
+122
+00:08:59,000 --> 00:09:04,000
+then git add pouet, commit with name “pouet to 32”
+git add pouet하고 “pouet to 32”라는 이름으로 commit을 합니다.
+
+123
+00:09:04,000 --> 00:09:11,000
+and now if I type git push -u origin master
+이제 git push -u origin master을 하지요.
+
+124
+00:09:11,000 --> 00:09:22,000
+it’s like saying push this and my local branch will follow the remote branch
+이걸 push하면 로컬 branch가 원격 branch를 따를 것이라는 뜻입니다.
+
+125
+00:09:22,000 --> 00:09:29,000
+good, you can see here branch master to track remote branch master from origin
+좋아요. 여기에 branch master가 원격 branch master를 origin을 통해 추척할 것이라고 쓰여있죠.
+
+126
+00:09:29,000 --> 00:09:34,000
+no errors, everything is updated, ok
+에러는 없고요. 모든 것은 업데이트 되어 있군요. 좋아요.
+
+127
+00:09:34,000 --> 00:09:37,000
+to summarize, if you have remote repo
+요약하자면, 원격 저장소의 데이터를
+
+128
+00:09:37,000 --> 00:09:40,000
+the only way to retrieve the data is the fetch command
+가져오는 유일한 방법은 fetch 명령어를 쓰는 것입니다.
+
+129
+00:09:40,000 --> 00:09:45,000
+actually not the only way
+사실 유일한 방법은 아니군요.
+
+130
+00:09:45,000 --> 00:09:49,000
+fetch will get the data from the remote repo
+fetch는 원격 저장소에서 데이터를 가져옵니다.
+
+131
+00:09:49,000 --> 00:09:59,000
+once you have this data, locally you have branch origin master and master
+일단 데이터를 가져오면, 로컬에는 origin/master와 master라는 branch가 있고요.
+
+132
+00:09:59,000 --> 00:10:04,000
+they are currently local
+현재 모두 로컬에 있습니다.
+
+133
+00:10:04,000 --> 00:10:08,000
+if you break something in the master or origin master
+master나 origin/master에 무언가를 망쳤다면
+
+134
+00:10:08,000 --> 00:10:10,000
+this can happen locally
+그건 로컬에서만 일어납니다.
+
+135
+00:10:10,000 --> 00:10:14,000
+but you will not break anything on the remote branch
+원격 branch에는 아무런 타격이 없지요.
+
+136
+00:10:14,000 --> 00:10:22,000
+it’s only when you will use push that you will break the remote version
+하지만 push를 한다면 원격 버전도 망가지죠.
+
+137
+00:10:22,000 --> 00:10:24,000
+this was the last video on git
+이것이 git에 대한 마지막 영상입니다.
+
+138
+00:10:24,000 --> 00:10:27,000
+I strongly urge you to read the man of all commands we covered
+우리가 이제껏 배운 명령어들의 man을 모조리 읽어보시길 추천드립니다.
+
+139
+00:10:27,000 --> 00:10:33,000
+there are other git commands, many sites with a lot of information
+다른 git 명령어들도 존재하고 그에 대한 정보를 담은 무수히 많은 웹사이트들이 있지요.
+
+140
+00:10:33,000 --> 00:10:40,000
+and many useful options such as git -a or git -p
+git -a나 git -p같은 유용한 옵션들도 아주 많습니다.
+
+141
+00:10:40,000 --> 06:00:00,000
+c'est un outil qui va vous servir pendant très longtemps encore pour vous ferez des projets sur internet
+git will be useful for a long time and when you will on Internet projects
+git는 오래도록 유용할 겁니다. 특히 인터넷으로 프로젝트를 할 때 말이죠.
+translated by inyang, mseo, mki,  yeslee, and ji-kim :D
